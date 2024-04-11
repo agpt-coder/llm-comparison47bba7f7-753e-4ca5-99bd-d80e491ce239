@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "llm-comparison"
+version = "0.1.0"
+description = "To create an API endpoint `/api/generate-response` that meets the project requirements, follow these steps with the specified tech stack:"
+authors = ["AutoGPT <info@agpt.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+fastapi = "*"
+httpx = "*"
+prisma = "*"
+pydantic = "*"
+uvicorn = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
